@@ -1,5 +1,6 @@
 import pickle
-    
+
+# please change the location below to where the model binary resides
 with open("model.bin", "rb") as f_in:
     loaded_model = pickle.load(f_in)
     f_in.close()
